@@ -67,6 +67,11 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@sveltejs/adapter-static@^1.0.0-next.11":
+  version "1.0.0-next.11"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.11.tgz#f7bac062b96644d7a4617a3f44bf6f084b0e0052"
+  integrity sha512-flqdt6nJxzRPfhYDZbvrw1iFmc87E3rLJ/Rz7K+d4or/slyqHSxH+yOmQ7CJKej5DidliuTpAOvulithuDc0yw==
+
 "@sveltejs/kit@next":
   version "1.0.0-next.109"
   resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.109.tgz#27eb301f891449d1ac374690eab50b32d2fbda09"
@@ -1198,11 +1203,6 @@ supports-color@^7.1.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
-
-svelte-dark-mode@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/svelte-dark-mode/-/svelte-dark-mode-1.0.0.tgz#4d7ef23adebb868220f7c1581d867f44155b1c08"
-  integrity sha512-GjYLoQ7oiv76Eue2pyGtaMXQ5uPpPuLeOXXnCrxbOibzAwuJzpie9soStDQ0pMzXObJiY8fmwZCCA8Y5Pmw/rQ==
 
 svelte-hmr@^0.14.2:
   version "0.14.4"

@@ -1,3 +1,7 @@
+<script context="module">
+	export const ssr = false;
+</script>
+
 <script lang="ts">
 	let theme =
 		localStorage?.theme ||
