@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  --primary: #10b981;
+  @apply bg-gray-50 text-gray-700 transition-colors;
+}
+
+.dark {
+  @apply bg-gray-900 text-gray-400;
+}
