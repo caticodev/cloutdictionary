@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
+    "build": "rm -rf build && svelte-kit build && touch build/.nojekyll",
     "preview": "svelte-kit preview",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. .",
-    "deploy": "svelte-kit build && ./deploy.sh"
+    "deploy": "yarn build && npx gh-pages -d build -t true"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.11",
