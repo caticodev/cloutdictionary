@@ -3,9 +3,9 @@ export function get() {
     body: [
       {
         phrase: 'rug pull',
-        definition: 'malicious maneuver in the cryptocurrency industry where crypto developers abandon a project and run away with investors\' funds',
+        definition: 'malicious maneuver where creator sells all their coin and runs away with investors\' funds',
         usage: 'He rug pulled again!',
-        date: "2021-05-23"
+        date: "2021-05-24"
       }
     ]
   };
