@@ -10,10 +10,10 @@
 				{post.phrase}
 			</h2>
 			<p class="font-light text-lg tracking-wide">
-				{post.definition}
+				{@html post.definition}
 			</p>
 			<p class="font-light mt-8 text-lg tracking-wide inline-flex items-center italic">
-				{post.usage}
+				{@html post.usage}
 			</p>
 		</div>
 	</div>
