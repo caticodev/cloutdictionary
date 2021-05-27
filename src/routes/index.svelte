@@ -16,10 +16,12 @@
 
 <script lang="ts">
 	import Card from './components/Card.svelte';
+	import Buttons from './components/Buttons.svelte';
 	export let posts;
 </script>
 
 <section>
+	<Buttons />
 	<div class="container mx-auto py-24 px-5">
 		{#each posts as post}
 			<Card {post} />
