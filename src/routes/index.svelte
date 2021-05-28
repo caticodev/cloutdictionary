@@ -21,7 +21,7 @@
 </script>
 
 <section>
-	<!-- <Buttons /> -->
+	<Buttons />
 	<div class="container mx-auto py-24 px-5">
 		{#each posts as post}
 			<Card {post} />
