@@ -2,9 +2,15 @@ export function get() {
   return {
     body: [
       {
+        phrase: 'HODL',
+        definition: 'strategy to hold an investment for a long time, regardless of price changes, the term originates from the typo of the word <span class="italic">“hold”</span> on a Bitcoin forum ',
+        usage: 'If you aren\'t prepared to HODL, then you probably shouldn\'t be here.',
+        date: "2021-05-28"
+      },
+      {
         phrase: 'genesis account',
         definition: 'account that was created as a part of the first block of data in the blockchain and is most likely a member of the core team or BitClout investor',
-        usage: 'We know that Da5id is a genesis account and possibly one of the first on the platform. ',
+        usage: 'We know that Da5id is a genesis account and possibly one of the first on the platform.',
         date: "2021-05-27"
       },
       {
