@@ -25,7 +25,8 @@
 			title: `${action} word: ${word?.trim()}`,
 			body: `**Definition**: ${definition?.trim()}\n**Usage**: ${usage?.trim()}`
 		});
-		console.log('TCL:   res', res);
+		issueLink = res.data.html_url;
+		submitted = true;
 	};
 </script>
 
@@ -52,16 +53,18 @@
 		{#if submitted}
 			<div class="flex flex-col justify-center items-center">
 				<p class="text-xl">
-					The word was submitted. You can track the progres of the submission at <a
+					The word was submitted.<br />You can track the progres of the submission at
+					<a
 						href={issueLink}
 						target="_blank"
-						rel="noopener noreferrer">Github</a
+						rel="noopener noreferrer"
+						class="transition-colors text-gray-200 hover:text-primary">Github</a
 					>.
 				</p>
 			</div>
 		{:else}
 			<div class="mx-auto max-w-md text-left w-full">
-				<form name="submit" class="w-full">
+				<form name="submit" class="w-full" on:submit|preventDefault={createIssue}>
 					<div class="mb-4 relative">
 						<label for="word" class="text-sm text-gray-400 leading-7">Word</label>
 						<input
@@ -98,7 +101,7 @@
 					{/if}
 					<div class="mt-10 text-center">
 						<button
-							on:click={createIssue}
+							type="submit"
 							disabled={action === 'request'
 								? !word?.trim()
 								: !(word?.trim() && definition?.trim())}
