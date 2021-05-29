@@ -2,8 +2,14 @@ export function get() {
   return {
     body: [
       {
+        phrase: 'The Clown',
+        definition: 'BitClout philanthropist who sends his coin to everybody and spreads positive vibes throughout the community',
+        usage: 'TheClown: I just blessed your wallet.',
+        date: "2021-05-29"
+      },
+      {
         phrase: 'HODL',
-        definition: 'strategy to hold an investment for a long time, regardless of price changes, the term originates from the typo of the word <span class="italic">“hold”</span> on a Bitcoin forum ',
+        definition: 'strategy to hold an investment for a long time, regardless of price changes, the term originates from the typo of the word <span class="italic">“hold”</span> on a Bitcoin forum',
         usage: 'If you aren\'t prepared to HODL, then you probably shouldn\'t be here.',
         date: "2021-05-28"
       },
