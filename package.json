@@ -1,5 +1,7 @@
 {
   "name": "cloutdictionary",
+  "title": "Clout Dictionary - Urban dictionary for BitClout",
+	"description": "Open-source and crowdsourced dictionary to help you navigate BitClout, blockchain and crypto terminology.",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",

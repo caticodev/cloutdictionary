@@ -25,16 +25,23 @@
 <script lang="ts">
 	import Card from './components/Card.svelte';
 	import Buttons from './components/Buttons.svelte';
+	import { title, description } from '../../package.json';
 	export let posts;
 </script>
+
+<svelte:head>
+	<title>{title}</title>
+	<meta property="og:title" content={title} />
+	<meta name="description" content={description} />
+	<meta property="og:description" content={description} />
+</svelte:head>
 
 <section>
 	<div class="container mx-auto pb-24 relative md:pt-5">
 		<h2
 			class="mx-auto text-center text-xl mb-10 tracking-wider max-w-2xl text-gray-600 leading-10 dark:text-gray-300"
 		>
-			Open-source and crowdsourced dictionary to help you navigate BitClout, blockchain and crypto
-			terminology.
+			{description}
 		</h2>
 		<div class="<lg:hidden">
 			<Buttons />
