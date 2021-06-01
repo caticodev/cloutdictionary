@@ -1,12 +1,12 @@
 <script context="module" lang="ts">
 	import { isBefore } from 'date-fns';
-	import { zonedTimeToUtc } from 'date-fns-tz';
+	import * as tz from 'date-fns-tz';
 
 	export const load = async ({ fetch }) => {
 		const res = await fetch('/index.json');
 		const now = Date.now();
 		const posts = (await res.json()).filter(({ date }) => {
-			const releaseDate = zonedTimeToUtc(`${date} 20:00`, 'America/Los_Angeles');
+			const releaseDate = tz.zonedTimeToUtc(`${date} 20:00`, 'America/Los_Angeles');
 			return isBefore(releaseDate, now);
 		});
 
