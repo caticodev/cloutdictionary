@@ -2,40 +2,232 @@ export function get() {
   return {
     body: [
       {
-        phrase: 'The Clown',
+        word: 'market cap',
+        definition: '',
+        usage: '',
+        date: '2021-06-30'
+      },
+      {
+        word: 'airdrop',
+        definition: '',
+        usage: '',
+        date: '2021-06-29'
+      },
+      {
+        word: 'astronaut',
+        definition: '',
+        usage: '',
+        date: '2021-06-28'
+      },
+      {
+        word: 'fish',
+        definition: '',
+        usage: '',
+        date: '2021-06-27'
+      },
+      {
+        word: 'blue chip',
+        definition: '',
+        usage: '',
+        date: '2021-06-26'
+      },
+      {
+        word: 'dapp',
+        definition: '',
+        usage: '',
+        date: '2021-06-25'
+      },
+      {
+        word: 'decentralized',
+        definition: '',
+        usage: '',
+        date: '2021-06-24'
+      },
+      {
+        word: 'blockchain',
+        definition: '',
+        usage: '',
+        date: '2021-06-23'
+      },
+      {
+        word: 'public key',
+        definition: '',
+        usage: '',
+        date: '2021-06-22'
+      },
+      {
+        word: 'nft',
+        definition: '',
+        usage: '',
+        date: '2021-06-21'
+      },
+      {
+        word: 'seed phrase',
+        definition: '',
+        usage: '',
+        date: '2021-06-20'
+      },
+      {
+        word: 'mine / mining',
+        definition: '',
+        usage: '',
+        date: '2021-06-19'
+      },
+      {
+        word: 'onramp / offramp',
+        definition: '',
+        usage: '',
+        date: '2021-06-18'
+      },
+      {
+        word: 'clout / reclout',
+        definition: '',
+        usage: '',
+        date: '2021-06-17'
+      },
+      {
+        word: 'paper hands',
+        definition: '',
+        usage: '',
+        date: '2021-06-16'
+      },
+      {
+        word: 'diamond hands',
+        definition: '',
+        usage: '',
+        date: '2021-06-15'
+      },
+      {
+        word: 'diamond',
+        definition: '',
+        usage: '',
+        date: '2021-06-14'
+      },
+      {
+        word: 'shitcoin',
+        definition: '',
+        usage: '',
+        date: '2021-06-13'
+      },
+      {
+        word: 'altcoin',
+        definition: '',
+        usage: '',
+        date: '2021-06-12'
+      },
+      {
+        word: 'clout',
+        definition: '',
+        usage: '',
+        date: '2021-06-11'
+      },
+      {
+        word: 'bitclout',
+        definition: 'a. social network b. currency c. website d. all of the above',
+        usage: '',
+        date: '2021-06-10'
+      },
+      {
+        word: 'web 3.0',
+        definition: '',
+        usage: '',
+        date: '2021-06-09'
+      },
+      {
+        word: 'DeFi',
+        definition: '',
+        usage: '',
+        date: '2021-06-08'
+      },
+      {
+        word: 'founder\'s reward',
+        definition: '',
+        usage: '',
+        date: '2021-06-07'
+      },
+      {
+        word: 'creator coin',
+        definition: '',
+        usage: '',
+        date: '2021-06-06'
+      },
+      {
+        word: 'bots',
+        definition: '',
+        usage: '',
+        date: '2021-06-05'
+      },
+      {
+        word: 'dolphin',
+        definition: '',
+        usage: '',
+        date: '2021-06-04'
+      },
+      {
+        word: 'pump and dump',
+        definition: '',
+        usage: '',
+        date: '2021-06-03'
+      },
+      {
+        word: 'buy the dip',
+        definition: 'seeing the drop in price of creator coin or BitClout as an investment opportunity rather than a warning sign',
+        usage: 'Sell on the rips, buy on the dips!',
+        date: '2021-06-02'
+      },
+      {
+        word: 'bearish',
+        definition: 'being skeptical that certain creator coin or BitClout itself will increase in value',
+        usage: 'I am generally bearish on major influencers joining.',
+        date: '2021-06-01'
+      },
+      {
+        word: 'bullish',
+        definition: 'being optimistic that certain creator coin or BitClout itself will increase in value',
+        usage: 'He\'s even more bullish on BitClout than I am.',
+        date: '2021-05-31'
+      },
+      {
+        word: 'minnow',
+        definition: 'also referred to as *fish*, is an account or creator who holds negligible amounts of BitClout and is often at the mercy of market manipulations by bigger accounts ([*whales*](#whale))',
+        usage: 'Some big boys dumped and the minnows got scared.',
+        date: '2021-05-30'
+      },
+      {
+        word: 'The Clown',
         definition: 'BitClout philanthropist who sends his coin to everybody and spreads positive vibes throughout the community',
-        usage: 'TheClown: I just blessed your wallet.',
-        date: "2021-05-29"
+        usage: 'The Clown: I just blessed your wallet.',
+        date: '2021-05-29'
       },
       {
-        phrase: 'HODL',
-        definition: 'strategy to hold an investment for a long time, regardless of price changes, the term originates from the typo of the word <span class="italic">“hold”</span> on a Bitcoin forum',
+        word: 'HODL',
+        definition: 'strategy to hold an investment for a long time, regardless of price changes, the term originates from the typo of the word *hold* on a Bitcoin forum',
         usage: 'If you aren\'t prepared to HODL, then you probably shouldn\'t be here.',
-        date: "2021-05-28"
+        date: '2021-05-28'
       },
       {
-        phrase: 'genesis account',
+        word: 'genesis account',
         definition: 'account that was created as a part of the first block of data in the blockchain and is most likely a member of the core team or BitClout investor',
         usage: 'We know that Da5id is a genesis account and possibly one of the first on the platform.',
-        date: "2021-05-27"
+        date: '2021-05-27'
       },
       {
-        phrase: 'mooning',
-        definition: 'situation when creator coin or BitClout currency is rapidly and substantially increasing in price<br/>other common forms of this expression are the verb <span class="italic">“moon”</span> or the phrase <span class="italic">“To the moon!”</span>',
-        usage: 'BitClout will moon within months.<br/>We are all mooning together, because we are all early adopters.',
-        date: "2021-05-26"
+        word: 'mooning',
+        definition: 'situation when creator coin or BitClout currency is rapidly and substantially increasing in price, other common forms of this expression are the verb *moon* or the phrase *To the moon!*',
+        usage: 'BitClout will moon within months.\nWe are all mooning together, because we are all early adopters.',
+        date: '2021-05-26'
       },
       {
-        phrase: 'whale',
+        word: 'whale',
         definition: 'account or creator who holds such large amount of BitClout assets it enables them to manipulate the market',
         usage: 'A massive whale has joined the platform.',
-        date: "2021-05-25"
+        date: '2021-05-25'
       },
       {
-        phrase: 'rug pull',
+        word: 'rug pull',
         definition: 'malicious maneuver where creator sells all their coin and runs away with investors\' funds',
         usage: 'He rug pulled again!',
-        date: "2021-05-24"
+        date: '2021-05-24'
       },
     ]
   };

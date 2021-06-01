@@ -1,13 +1,93 @@
-html,
-body {
-  height: 100%;
+/* pt-sans-caption-regular - latin */
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/pt-sans-caption-v13-latin-regular.woff2') format('woff2'),
+    url('/fonts/pt-sans-caption-v13-latin-regular.woff') format('woff');
 }
 
-body {
-  --primary: #10b981;
-  @apply bg-gray-50 text-gray-700;
+/* pt-sans-caption-700 - latin */
+@font-face {
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('/fonts/pt-sans-caption-v13-latin-700.woff2') format('woff2'),
+    url('/fonts/pt-sans-caption-v13-latin-700.woff') format('woff');
 }
 
-.dark {
-  @apply bg-gray-900 text-gray-400;
+/* pt-sans-regular - latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/pt-sans-v12-latin-regular.woff2') format('woff2'),
+    url('/fonts/pt-sans-v12-latin-regular.woff') format('woff');
+}
+
+/* pt-sans-italic - latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/pt-sans-v12-latin-italic.woff2') format('woff2'),
+    url('/fonts/pt-sans-v12-latin-italic.woff') format('woff');
+}
+
+/* pt-sans-700 - latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('/fonts/pt-sans-v12-latin-700.woff2') format('woff2'),
+    url('/fonts/pt-sans-v12-latin-700.woff') format('woff');
+}
+
+/* pt-sans-700italic - latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+    url('/fonts/pt-sans-v12-latin-700italic.woff2') format('woff2'),
+    url('/fonts/pt-sans-v12-latin-700italic.woff') format('woff');
+}
+
+/* pt-mono-regular - latin */
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/pt-mono-v8-latin-regular.woff2') format('woff2'),
+    url('/fonts/pt-mono-v8-latin-regular.woff') format('woff');
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    --primary: #10b981;
+    @apply bg-gray-50 text-gray-700 font-body overflow-x-hidden;
+  }
+
+  .dark {
+    @apply bg-gray-900 text-gray-400;
+  }
+
+  button {
+    @apply font-body
+  }
 }

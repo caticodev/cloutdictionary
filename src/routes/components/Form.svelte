@@ -6,8 +6,10 @@
 
 	export let close;
 	export let action;
+	export let post;
 	let submitted = false;
-	let octokit, word, definition, usage, issueLink;
+	let octokit, issueLink;
+	let { word, definition, usage } = post || {};
 
 	const load = async () => {
 		octokit = await import('https://cdn.skypack.dev/@octokit/request');
@@ -31,21 +33,25 @@
 </script>
 
 <div
-	class="flex-col outline-none inset-0 text-gray-400 z-50 overflow-x-hidden fixed justify-center md:flex focus:outline-none"
+	class="flex-col outline-none inset-0 z-50 overflow-x-hidden fixed justify-center md:flex focus:outline-none"
 >
 	<div
 		transition:fly={{ duration: 150, y: 50, opacity: 0, easing: sineInOut }}
-		class="rounded-lg mx-auto min-h-full outline-none bg-gray-900 shadow-lg text-center px-3 pt-16 pb-10 relative md:max-w-xl focus:outline-none sm:px-10 md:min-h-0 md:px-20 lg:max-w-3xl xl:py-14"
+		class="rounded-lg mx-auto min-h-full outline-none bg-gray-50 shadow-lg text-center px-3 pt-16 pb-10 relative md:max-w-xl focus:outline-none dark:bg-gray-900 sm:px-10 md:min-h-0 md:px-20 lg:max-w-3xl xl:py-14"
 	>
-		<h2 class="font-medium mb-5 text-gray-200 text-2xl">
+		<h2 class="font-medium mb-5 text-gray-600 text-2xl dark:text-gray-200">
 			{#if submitted}
 				Thank you!
 			{:else}
-				{action === 'request' ? 'Request new word' : 'Add new word definition'}
+				{action === 'edit'
+					? 'Edit word'
+					: action === 'request'
+					? 'Request new word'
+					: 'Add new word definition'}
 			{/if}
 		</h2>
 		<button
-			class="transition top-5 right-5 text-gray-400 absolute focus:outline-none hover:text-primary"
+			class="transition top-5 right-5 absolute focus:outline-none hover:text-primary"
 			on:click={close}
 		>
 			<Cross class="h-6 stroke-5 w-6" />
@@ -58,7 +64,7 @@
 						href={issueLink}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="transition-colors text-gray-200 hover:text-primary">Github</a
+						class="transition-colors text-gray-600 hover:text-primary dark:text-gray-200">Github</a
 					>.
 				</p>
 			</div>
@@ -66,36 +72,35 @@
 			<div class="mx-auto max-w-md text-left w-full">
 				<form name="submit" class="w-full" on:submit|preventDefault={createIssue}>
 					<div class="mb-4 relative">
-						<label for="word" class="text-sm text-gray-400 leading-7">Word</label>
+						<label for="word" class="text-sm leading-8">Word</label>
 						<input
 							bind:value={word}
 							type="text"
 							id="word"
 							name="word"
-							class="border rounded outline-none bg-gray-600 bg-opacity-20 border-gray-600 text-base w-full py-1 px-3 transition-colors ease-in-out text-gray-100 leading-8 duration-200 focus:bg-transparent focus:ring-2 focus:ring-green-900 focus:border-green-500"
+							class="border rounded outline-none bg-gray-200 bg-opacity-20 border-gray-300 text-base w-full py-1 px-3 transition-colors ease-in-out text-gray-800 duration-200 focus:bg-transparent dark:text-gray-100 dark:border-gray-600 dark:bg-gray-800 focus:border-green-500"
 						/>
 					</div>
 					{#if action !== 'request'}
 						<div class="mb-4 relative">
-							<label for="definition" class="text-sm text-gray-400 leading-7"
+							<label for="definition" class="text-sm leading-8"
 								>Definition (markdown supported)</label
 							>
 							<textarea
+								rows="5"
 								bind:value={definition}
 								id="definition"
 								name="definition"
-								class="border rounded outline-none bg-gray-600 bg-opacity-20 border-gray-600 text-base w-full py-1 px-3 transition-colors ease-in-out text-gray-100 leading-8 duration-200 focus:bg-transparent focus:ring-2 focus:ring-green-900 focus:border-green-500"
+								class="border rounded outline-none bg-gray-200 bg-opacity-20 border-gray-300 text-base w-full py-1 px-3 transition-colors ease-in-out text-gray-800 duration-200 focus:bg-transparent dark:text-gray-100 dark:border-gray-600 dark:bg-gray-800 focus:border-green-500"
 							/>
 						</div>
 						<div class="mb-4 relative">
-							<label for="usage" class="text-sm text-gray-400 leading-7"
-								>Example of usage (optional)</label
-							>
+							<label for="usage" class="text-sm leading-8">Example of usage (optional)</label>
 							<textarea
 								bind:value={usage}
 								id="usage"
 								name="usage"
-								class="border rounded outline-none bg-gray-600 bg-opacity-20 border-gray-600 text-base w-full py-1 px-3 transition-colors ease-in-out text-gray-100 leading-8 duration-200 focus:bg-transparent focus:ring-2 focus:ring-green-900 focus:border-green-500"
+								class="border rounded outline-none bg-gray-200 bg-opacity-20 border-gray-300 text-base w-full py-1 px-3 transition-colors ease-in-out text-gray-800 duration-200 focus:bg-transparent dark:text-gray-100 dark:border-gray-600 dark:bg-gray-800 focus:border-green-500"
 							/>
 						</div>
 					{/if}

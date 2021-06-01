@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-	<div class="container flex flex-col mx-auto p-5 items-center sm:flex-row">
+	<div class="container flex flex-col mx-auto p-5 items-center sm:flex-row justify-between">
 		<p
 			class="mt-4 text-sm text-center text-gray-500 md:text-left dark:text-gray-400 sm:py-2 sm:mt-0"
 		>

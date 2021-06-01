@@ -1,7 +1,8 @@
 <script>
 	import '../app.css';
 	import 'virtual:windi.css';
-	import { browser } from '$app/env';
+	import { browser, dev } from '$app/env';
+
 	if (browser) import('virtual:windi-devtools');
 
 	import Header from './components/Header.svelte';
@@ -12,7 +13,7 @@
 	<title>Clout dictionary</title>
 </svelte:head>
 
-<div id="svelte" class="flex flex-col h-full">
+<div id="svelte" class="flex flex-col h-full {dev ? 'debug-screens' : ''}">
 	<Header />
 	<main class="flex-grow">
 		<slot />

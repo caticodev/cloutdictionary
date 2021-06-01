@@ -1,10 +1,18 @@
 <script context="module" lang="ts">
+	import { isBefore } from 'date-fns';
+	import { zonedTimeToUtc } from 'date-fns-tz';
+
 	export const load = async ({ fetch }) => {
 		const res = await fetch('/index.json');
+		const now = Date.now();
+		const posts = (await res.json()).filter(({ date }) => {
+			const releaseDate = zonedTimeToUtc(`${date} 20:00`, 'America/Los_Angeles');
+			return isBefore(releaseDate, now);
+		});
 
 		if (res.ok) {
 			return {
-				props: { posts: await res.json() }
+				props: { posts }
 			};
 		}
 
@@ -21,8 +29,16 @@
 </script>
 
 <section>
-	<Buttons />
-	<div class="container mx-auto py-24 px-5">
+	<div class="container mx-auto pb-24 relative md:pt-5">
+		<h2
+			class="font-thin mx-auto text-center text-xl mb-10 tracking-wider max-w-2xl text-gray-600 leading-10 dark:text-gray-300"
+		>
+			Open-source and crowdsourced dictionary to help you navigate BitClout, blockchain and crypto
+			terminology.
+		</h2>
+		<div class="<lg:hidden">
+			<Buttons />
+		</div>
 		{#each posts as post}
 			<Card {post} />
 		{/each}

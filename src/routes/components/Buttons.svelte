@@ -1,5 +1,7 @@
 <script lang="ts">
 	import Form from './Form.svelte';
+	import Plus from './icons/Plus.svelte';
+	import Write from './icons/Write.svelte';
 
 	let showModal = false;
 	let action;
@@ -11,13 +13,22 @@
 	};
 </script>
 
-<div class="flex mx-auto max-w-2xl p-4 justify-between">
+<div class="mx-auto p-5 right-0 absolute">
 	{#each actions as action}
 		<button
+			title={action === 'request' ? 'Request word' : 'Add definition'}
 			on:click={() => toggleModal(action)}
-			class="rounded-lg bg-gray-100 border-2 border-gray-200 py-3 px-4 transition-colors hover:border-primary dark:hover:border-primary hover:text-primary dark:border-gray-700 dark:bg-gray-800"
-			>{action === 'request' ? 'Request word' : 'Add definition'}</button
+			class="border-transparent rounded-lg flex font-medium bg-gray-100 border-2 mb-5 py-3 px-4 transition-colors justify-center focus:outline-none hover:border-primary dark:hover:border-primary hover:text-primary dark:bg-gray-800"
 		>
+			{#if action === 'request'}
+				<Plus class="h-6 stroke-2 w-6" />
+			{:else}
+				<Write class="h-6 stroke-2 w-6" />
+			{/if}
+			<span class="pl-3 @lg:hidden whitespace-nowrap">
+				{action === 'request' ? 'Request word' : 'Add definition'}
+			</span>
+		</button>
 	{/each}
 </div>
 {#if showModal}

@@ -16,7 +16,7 @@
 </script>
 
 <button
-	class="rounded-full bg-gray-100 mode dark:bg-gray-800"
+	class="rounded-full bg-gray-100 mode focus:outline-none dark:bg-gray-800"
 	on:click={switchMode}
 	aria-label="Switch to {switchTheme} mode"
 />
