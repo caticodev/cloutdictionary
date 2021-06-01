@@ -39,7 +39,7 @@
 		transition:fly={{ duration: 150, y: 50, opacity: 0, easing: sineInOut }}
 		class="rounded-lg mx-auto min-h-full outline-none bg-gray-50 shadow-lg text-center px-3 pt-16 pb-10 relative md:max-w-xl focus:outline-none dark:bg-gray-900 sm:px-10 md:min-h-0 md:px-20 lg:max-w-3xl xl:py-14"
 	>
-		<h2 class="font-medium mb-5 text-gray-600 text-2xl dark:text-gray-200">
+		<h2 class="mb-5 text-gray-600 text-2xl dark:text-gray-200">
 			{#if submitted}
 				Thank you!
 			{:else}

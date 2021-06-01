@@ -1,23 +1,3 @@
-/* pt-sans-caption-regular - latin */
-@font-face {
-  font-family: 'PT Sans Caption';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-    url('/fonts/pt-sans-caption-v13-latin-regular.woff2') format('woff2'),
-    url('/fonts/pt-sans-caption-v13-latin-regular.woff') format('woff');
-}
-
-/* pt-sans-caption-700 - latin */
-@font-face {
-  font-family: 'PT Sans Caption';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-    url('/fonts/pt-sans-caption-v13-latin-700.woff2') format('woff2'),
-    url('/fonts/pt-sans-caption-v13-latin-700.woff') format('woff');
-}
-
 /* pt-sans-regular - latin */
 @font-face {
   font-family: 'PT Sans';
@@ -36,26 +16,6 @@
   src: local(''),
     url('/fonts/pt-sans-v12-latin-italic.woff2') format('woff2'),
     url('/fonts/pt-sans-v12-latin-italic.woff') format('woff');
-}
-
-/* pt-sans-700 - latin */
-@font-face {
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-    url('/fonts/pt-sans-v12-latin-700.woff2') format('woff2'),
-    url('/fonts/pt-sans-v12-latin-700.woff') format('woff');
-}
-
-/* pt-sans-700italic - latin */
-@font-face {
-  font-family: 'PT Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local(''),
-    url('/fonts/pt-sans-v12-latin-700italic.woff2') format('woff2'),
-    url('/fonts/pt-sans-v12-latin-700italic.woff') format('woff');
 }
 
 /* pt-mono-regular - latin */

@@ -15,12 +15,10 @@
 			<h2 class="font-display my-8 text-primary tracking-widest text-3xl">
 				{post.word}
 			</h2>
-			<p class="font-light text-lg tracking-wider whitespace-pre-wrap">
+			<p class="text-lg tracking-wider whitespace-pre-wrap">
 				{@html marked.parseInline(post.definition)}
 			</p>
-			<p
-				class="font-light mt-8 text-lg tracking-wider inline-flex items-center italic whitespace-pre-wrap"
-			>
+			<p class="mt-8 text-lg tracking-wider inline-flex items-center italic whitespace-pre-wrap">
 				{@html marked.parseInline(post.usage)}
 			</p>
 		</div>

@@ -31,7 +31,7 @@
 <section>
 	<div class="container mx-auto pb-24 relative md:pt-5">
 		<h2
-			class="font-thin mx-auto text-center text-xl mb-10 tracking-wider max-w-2xl text-gray-600 leading-10 dark:text-gray-300"
+			class="mx-auto text-center text-xl mb-10 tracking-wider max-w-2xl text-gray-600 leading-10 dark:text-gray-300"
 		>
 			Open-source and crowdsourced dictionary to help you navigate BitClout, blockchain and crypto
 			terminology.

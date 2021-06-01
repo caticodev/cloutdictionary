@@ -18,7 +18,7 @@
 		<button
 			title={action === 'request' ? 'Request word' : 'Add definition'}
 			on:click={() => toggleModal(action)}
-			class="border-transparent rounded-lg flex font-medium bg-gray-100 border-2 mb-5 py-3 px-4 transition-colors justify-center focus:outline-none hover:border-primary dark:hover:border-primary hover:text-primary dark:bg-gray-800"
+			class="border-transparent rounded-lg flex bg-gray-100 border-2 mb-5 py-3 px-4 transition-colors justify-center focus:outline-none hover:border-primary dark:hover:border-primary hover:text-primary dark:bg-gray-800"
 		>
 			{#if action === 'request'}
 				<Plus class="h-6 stroke-2 w-6" />
