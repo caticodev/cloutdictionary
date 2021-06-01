@@ -7,8 +7,9 @@ export default {
         primary: 'var(--primary)',
       },
       fontFamily: {
-        display: ['PT Mono', 'SFMono-Regular', 'ui-monospace'],
-        body: ['PT Sans', 'ui-sans-serif', 'system-ui'],
+        display: 'PT Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace',
+        body: 'PT Sans,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
+
       }
     },
   },
