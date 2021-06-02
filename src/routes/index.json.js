@@ -2,6 +2,24 @@ export function get() {
   return {
     body: [
       {
+        word: 'bonding curve',
+        definition: 'tab where you can see the holders of your coin',
+        usage: '',
+        date: '2021-07-02'
+      },
+      {
+        word: 'cap table',
+        definition: 'tab where you can see the holders of your coin',
+        usage: '',
+        date: '2021-07-02'
+      },
+      {
+        word: 'cloutbait',
+        definition: 'content with big promises or incentives to attract the audience, which turn out to be underwhelming',
+        usage: 'His post was pure cloutbait. I reclouted, commented and liked; and he only gave me one diamond.',
+        date: '2021-07-01'
+      },
+      {
         word: 'market cap',
         definition: '',
         usage: '',
@@ -130,48 +148,48 @@ export function get() {
       {
         word: 'web 3.0',
         definition: '',
-        usage: '',
+        usage: 'BitClout is the first mainstream web 3.0 application',
         date: '2021-06-09'
       },
       {
         word: 'DeFi',
         definition: '',
-        usage: '',
+        usage: 'Plenty of defi and cefi companies struggle with regulation.',
         date: '2021-06-08'
       },
       {
         word: 'founder\'s reward',
         definition: '',
-        usage: '',
+        usage: 'The founder\'s reward was changed to being paid out in bitclout instead of your own [***creator coin***](#creator-coin).',
         date: '2021-06-07'
       },
       {
         word: 'creator coin',
         definition: '',
-        usage: '',
+        usage: 'I wish the creator coins were tied to USD instead of BitClout.',
         date: '2021-06-06'
+      },
+      {
+        word: 'degen',
+        definition: '',
+        usage: 'Maybe I\'m being full degen but do you have a bitclout coin price / time chart?',
+        date: '2021-06-05'
       },
       {
         word: 'bots',
         definition: '',
-        usage: '',
-        date: '2021-06-05'
-      },
-      {
-        word: 'dolphin',
-        definition: '',
-        usage: '',
+        usage: 'The bots got in there first and bought my coin!',
         date: '2021-06-04'
       },
       {
         word: 'pump and dump',
-        definition: '',
-        usage: '',
+        definition: 'artificial inflation of creator coin price by making false or misleading statements with the intention of selling later at higher price',
+        usage: 'Bots and anonymous accounts are doing lots of pumps and dumps.',
         date: '2021-06-03'
       },
       {
         word: 'buy the dip',
-        definition: 'seeing the drop in price of creator coin or BitClout as an investment opportunity rather than a warning sign',
+        definition: 'seeing the drop in price of creator coin or BitClout as an investment opportunity and believing it will bounce back',
         usage: 'Sell on the rips, buy on the dips!',
         date: '2021-06-02'
       },
@@ -189,7 +207,7 @@ export function get() {
       },
       {
         word: 'minnow',
-        definition: 'also referred to as *fish*, is an account or creator who holds negligible amounts of BitClout and is often at the mercy of market manipulations by bigger accounts ([*whales*](#whale))',
+        definition: 'also referred to as *fish*, is an account or creator who holds negligible amounts of BitClout and is often at the mercy of market manipulations by bigger accounts ([***whales***](#whale))',
         usage: 'Some big boys dumped and the minnows got scared.',
         date: '2021-05-30'
       },

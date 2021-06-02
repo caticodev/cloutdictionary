@@ -6,10 +6,10 @@
 </script>
 
 {#if post}
-	<div id={post.word} class="mx-auto max-w-2xl p-5 card">
+	<div id={post.word.replace(' ', '-')} class="mx-auto max-w-2xl p-5 card">
 		<div class="rounded-lg flex flex-col h-full bg-gray-100 p-8 relative dark:bg-gray-800">
 			<Edit bind:post />
-			<p class="text-sm opacity-50 inline-flex items-center">
+			<p class="text-sm opacity-50">
 				{format(new Date(post.date), 'PP')}
 			</p>
 			<h2 class="font-display my-8 text-primary tracking-widest text-3xl">
@@ -18,7 +18,7 @@
 			<p class="text-lg tracking-wider whitespace-pre-wrap">
 				{@html marked.parseInline(post.definition)}
 			</p>
-			<p class="mt-8 text-lg tracking-wider inline-flex items-center italic whitespace-pre-wrap">
+			<p class="mt-8 text-lg tracking-wider italic whitespace-pre-wrap">
 				{@html marked.parseInline(post.usage)}
 			</p>
 		</div>

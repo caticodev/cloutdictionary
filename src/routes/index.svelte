@@ -1,4 +1,5 @@
 <script context="module" lang="ts">
+	import { dev } from '$app/env';
 	import { isBefore } from 'date-fns';
 	import * as tz from 'date-fns-tz';
 
@@ -6,6 +7,7 @@
 		const res = await fetch('/index.json');
 		const now = Date.now();
 		const posts = (await res.json()).filter(({ date }) => {
+			if (dev) return true;
 			const releaseDate = tz.zonedTimeToUtc(`${date} 20:00`, 'America/Los_Angeles');
 			return isBefore(releaseDate, now);
 		});
