@@ -2,153 +2,161 @@ export function get() {
   return {
     body: [
       {
-        word: 'bonding curve',
-        definition: 'tab where you can see the holders of your coin',
+        word: 'burn',
+        definition: '',
         usage: '',
-        date: '2021-07-02'
+        date: ''
+      },
+      {
+        word: 'shill',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
+        word: 'farm',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
+        word: 'bag',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
+        word: 'pull out',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
+        word: 'ape',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
+        word: 'clout chasing',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
+        word: 'bonding curve',
+        definition: '',
+        usage: '',
+        date: ''
       },
       {
         word: 'cap table',
         definition: 'tab where you can see the holders of your coin',
         usage: '',
-        date: '2021-07-02'
+        date: ''
       },
-      {
-        word: 'cloutbait',
-        definition: 'content with big promises or incentives to attract the audience, which turn out to be underwhelming',
-        usage: 'His post was pure cloutbait. I reclouted, commented and liked; and he only gave me one diamond.',
-        date: '2021-07-01'
-      },
+
       {
         word: 'market cap',
         definition: '',
         usage: '',
-        date: '2021-06-30'
+        date: ''
       },
       {
         word: 'airdrop',
         definition: '',
         usage: '',
-        date: '2021-06-29'
+        date: ''
       },
       {
         word: 'astronaut',
         definition: '',
         usage: '',
-        date: '2021-06-28'
+        date: ''
       },
       {
         word: 'fish',
         definition: '',
         usage: '',
-        date: '2021-06-27'
+        date: ''
       },
       {
         word: 'blue chip',
         definition: '',
         usage: '',
-        date: '2021-06-26'
+        date: ''
       },
       {
         word: 'dapp',
         definition: '',
         usage: '',
-        date: '2021-06-25'
+        date: ''
       },
       {
         word: 'decentralized',
         definition: '',
         usage: '',
-        date: '2021-06-24'
+        date: ''
       },
+
       {
         word: 'blockchain',
         definition: '',
         usage: '',
-        date: '2021-06-23'
+        date: ''
       },
       {
         word: 'public key',
         definition: '',
         usage: '',
-        date: '2021-06-22'
+        date: ''
       },
       {
         word: 'nft',
         definition: '',
         usage: '',
-        date: '2021-06-21'
+        date: ''
       },
       {
         word: 'seed phrase',
         definition: '',
         usage: '',
-        date: '2021-06-20'
+        date: ''
       },
       {
-        word: 'mine / mining',
+        word: 'mine',
         definition: '',
         usage: '',
-        date: '2021-06-19'
+        date: ''
       },
       {
         word: 'onramp / offramp',
         definition: '',
-        usage: '',
+        usage: 'A large share of most creators\' "traditional" audience also isn\'t on the platform yet, but i think this will change once bitclout officially lists on an exchange and there\'s an obvious offramp',
         date: '2021-06-18'
-      },
-      {
-        word: 'clout / reclout',
-        definition: '',
-        usage: '',
-        date: '2021-06-17'
       },
       {
         word: 'paper hands',
         definition: '',
-        usage: '',
+        usage: 'I lost like $500 in potential profit for not holding long enough, fuken paper hands trader I am.',
         date: '2021-06-16'
       },
       {
         word: 'diamond hands',
         definition: '',
-        usage: '',
+        usage: 'I\'d be happy to take some profit now but literally can\'t sell so diamond hands it is.',
         date: '2021-06-15'
-      },
-      {
-        word: 'diamond',
-        definition: '',
-        usage: '',
-        date: '2021-06-14'
-      },
-      {
-        word: 'shitcoin',
-        definition: '',
-        usage: '',
-        date: '2021-06-13'
-      },
-      {
-        word: 'altcoin',
-        definition: '',
-        usage: '',
-        date: '2021-06-12'
-      },
-      {
-        word: 'clout',
-        definition: '',
-        usage: '',
-        date: '2021-06-11'
       },
       {
         word: 'bitclout',
         definition: 'a. social network b. currency c. website d. all of the above',
-        usage: '',
+        usage: 'BitClout is the next generation of social networks.',
         date: '2021-06-10'
       },
       {
         word: 'web 3.0',
         definition: '',
-        usage: 'BitClout is the first mainstream web 3.0 application',
+        usage: 'BitClout is the first mainstream web 3.0 application.',
         date: '2021-06-09'
       },
       {
@@ -158,33 +166,79 @@ export function get() {
         date: '2021-06-08'
       },
       {
+        word: 'shitcoin',
+        definition: '',
+        usage: '',
+        date: '2021-06-13'
+      },
+
+
+      {
+        word: 'cast',
+        definition: '',
+        usage: '',
+        date: '2021-06-07'
+      },
+      {
+        word: 'degen',
+        definition: 'BitClout user who is a a bit too obsessed with trading creator coins and likes to participate in high risk [***FR games***](#FR-game) and [***pumps and dumps***](#pump-and-dump)',
+        usage: 'Maybe I\'m being full degen but do you have a BitClout coin price-time chart?',
+        date: '2021-06-06'
+      },
+      {
+        word: 'FR game',
+        definition: '',
+        usage: 'All these FR games are driving me crazy.',
+        date: '2021-07-03'
+      },
+      {
         word: 'founder\'s reward',
         definition: '',
         usage: 'The founder\'s reward was changed to being paid out in bitclout instead of your own [***creator coin***](#creator-coin).',
         date: '2021-06-07'
       },
+
       {
-        word: 'creator coin',
-        definition: '',
-        usage: 'I wish the creator coins were tied to USD instead of BitClout.',
-        date: '2021-06-06'
-      },
-      {
-        word: 'degen',
-        definition: '',
-        usage: 'Maybe I\'m being full degen but do you have a bitclout coin price / time chart?',
+        word: 'cloutbait',
+        definition: 'content with big promises or incentives to attract the audience, which turn out to be underwhelming',
+        usage: 'His post was pure cloutbait. I [***reclouted***](#clout), commented and liked; and he only gave me one [***diamond***](diamond).',
         date: '2021-06-05'
       },
-      {
-        word: 'bots',
-        definition: '',
-        usage: 'The bots got in there first and bought my coin!',
-        date: '2021-06-04'
-      },
+
       {
         word: 'pump and dump',
         definition: 'artificial inflation of creator coin price by making false or misleading statements with the intention of selling later at higher price',
-        usage: 'Bots and anonymous accounts are doing lots of pumps and dumps.',
+        usage: '[***Bots***](#bots) and anonymous accounts are doing lots of pumps and dumps.',
+        date: '2021-06-04'
+      },
+      {
+        word: 'bots',
+        definition: 'accounts that are automated to do activity on BitClout, including [***clouting***](#clout) and trading creator coins',
+        usage: 'The bots got in there first and bought my [***coin***](#creator-coin)!',
+        date: '2021-06-03'
+      },
+      {
+        word: 'clout / reclout',
+        definition: '',
+        usage: 'Reclout for [***diamonds***](#diamond)!',
+        date: '2021-06-11'
+      },
+      {
+        word: 'diamond',
+        definition: '',
+        usage: '',
+        date: '2021-06-14'
+      },
+      {
+        word: 'creator coin',
+        definition: 'or CC, is a currency asset that is attached to every account and tied to BitClout coin price, enabling other users to invest in given creator by buying their coin',
+        usage: 'I wish the creator coins were tied to USD instead of BitClout.',
+        date: '2021-06-04'
+      },
+      {
+        word: 'deflation bomb',
+        definition: 'June 12th 2021, day when printing of new BitClout coins was stopped and supply has been fixed forever at ~11M',
+        usage: 'Prepare for the Deflation Bomb...',
         date: '2021-06-03'
       },
       {
