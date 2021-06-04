@@ -2,6 +2,12 @@ export function get() {
   return {
     body: [
       {
+        word: 'mint',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
         word: 'burn',
         definition: '',
         usage: '',
@@ -133,43 +139,43 @@ export function get() {
         word: 'onramp / offramp',
         definition: '',
         usage: 'A large share of most creators\' "traditional" audience also isn\'t on the platform yet, but i think this will change once bitclout officially lists on an exchange and there\'s an obvious offramp',
-        date: '2021-06-18'
+        date: ''
       },
       {
         word: 'paper hands',
         definition: '',
         usage: 'I lost like $500 in potential profit for not holding long enough, fuken paper hands trader I am.',
-        date: '2021-06-16'
+        date: ''
       },
       {
         word: 'diamond hands',
         definition: '',
         usage: 'I\'d be happy to take some profit now but literally can\'t sell so diamond hands it is.',
-        date: '2021-06-15'
+        date: ''
       },
       {
         word: 'bitclout',
         definition: 'a. social network b. currency c. website d. all of the above',
         usage: 'BitClout is the next generation of social networks.',
-        date: '2021-06-10'
+        date: ''
       },
       {
         word: 'web 3.0',
         definition: '',
         usage: 'BitClout is the first mainstream web 3.0 application.',
-        date: '2021-06-09'
+        date: ''
       },
       {
         word: 'DeFi',
         definition: '',
         usage: 'Plenty of defi and cefi companies struggle with regulation.',
-        date: '2021-06-08'
+        date: ''
       },
       {
         word: 'shitcoin',
         definition: '',
         usage: '',
-        date: '2021-06-13'
+        date: ''
       },
 
 
@@ -177,57 +183,57 @@ export function get() {
         word: 'cast',
         definition: '',
         usage: '',
-        date: '2021-06-07'
+        date: ''
       },
       {
         word: 'degen',
         definition: 'BitClout user who is a a bit too obsessed with trading creator coins and likes to participate in high risk [***FR games***](#FR-game) and [***pumps and dumps***](#pump-and-dump)',
         usage: 'Maybe I\'m being full degen but do you have a BitClout coin price-time chart?',
-        date: '2021-06-06'
+        date: ''
       },
       {
         word: 'FR game',
         definition: '',
         usage: 'All these FR games are driving me crazy.',
-        date: '2021-07-03'
+        date: ''
       },
       {
         word: 'founder\'s reward',
         definition: '',
         usage: 'The founder\'s reward was changed to being paid out in bitclout instead of your own [***creator coin***](#creator-coin).',
-        date: '2021-06-07'
+        date: ''
       },
 
       {
         word: 'cloutbait',
         definition: 'content with big promises or incentives to attract the audience, which turn out to be underwhelming',
         usage: 'His post was pure cloutbait. I [***reclouted***](#clout), commented and liked; and he only gave me one [***diamond***](diamond).',
-        date: '2021-06-05'
+        date: ''
       },
 
       {
         word: 'pump and dump',
         definition: 'artificial inflation of creator coin price by making false or misleading statements with the intention of selling later at higher price',
         usage: '[***Bots***](#bots) and anonymous accounts are doing lots of pumps and dumps.',
-        date: '2021-06-04'
+        date: ''
       },
       {
         word: 'bots',
         definition: 'accounts that are automated to do activity on BitClout, including [***clouting***](#clout) and trading creator coins',
         usage: 'The bots got in there first and bought my [***coin***](#creator-coin)!',
-        date: '2021-06-03'
+        date: ''
       },
       {
         word: 'clout / reclout',
         definition: '',
         usage: 'Reclout for [***diamonds***](#diamond)!',
-        date: '2021-06-11'
+        date: ''
       },
       {
         word: 'diamond',
         definition: '',
         usage: '',
-        date: '2021-06-14'
+        date: ''
       },
       {
         word: 'creator coin',
