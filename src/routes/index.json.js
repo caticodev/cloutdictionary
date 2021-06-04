@@ -168,19 +168,11 @@ export function get() {
       {
         word: 'DeFi',
         definition: '',
-        usage: 'Plenty of defi and cefi companies struggle with regulation.',
+        usage: 'Plenty of DeFi and CeFi companies struggle with regulation.',
         date: ''
       },
       {
         word: 'shitcoin',
-        definition: '',
-        usage: '',
-        date: ''
-      },
-
-
-      {
-        word: 'cast',
         definition: '',
         usage: '',
         date: ''
@@ -193,51 +185,55 @@ export function get() {
       },
       {
         word: 'FR game',
-        definition: '',
+        definition: 'when creator anounces that they\'re  going to chnage their founder\'s reward in an attempt to attaract more investors',
         usage: 'All these FR games are driving me crazy.',
         date: ''
       },
       {
-        word: 'founder\'s reward',
-        definition: '',
-        usage: 'The founder\'s reward was changed to being paid out in bitclout instead of your own [***creator coin***](#creator-coin).',
-        date: ''
+        word: 'cast',
+        definition: '*noun*, promoted BitClout content\n*verb*, to promote BitClout content',
+        usage: 'I casted something, and @diamondhands wound up reclouting it!',
+        date: '2021-06-11'
       },
-
+      {
+        word: 'founder\'s reward',
+        definition: 'or *FR*, is the amount of BitClout a creator gets paid when somebody buys their coin, set as percentage of total amount bought',
+        usage: 'The founder\'s reward was changed to being paid out in BitClout instead of your own [***creator coin***](#creator-coin).',
+        date: '2021-06-10'
+      },
       {
         word: 'cloutbait',
         definition: 'content with big promises or incentives to attract the audience, which turn out to be underwhelming',
         usage: 'His post was pure cloutbait. I [***reclouted***](#clout), commented and liked; and he only gave me one [***diamond***](diamond).',
-        date: ''
+        date: '2021-06-09'
       },
-
       {
         word: 'pump and dump',
         definition: 'artificial inflation of creator coin price by making false or misleading statements with the intention of selling later at higher price',
         usage: '[***Bots***](#bots) and anonymous accounts are doing lots of pumps and dumps.',
-        date: ''
+        date: '2021-06-08'
       },
       {
         word: 'bots',
         definition: 'accounts that are automated to do activity on BitClout, including [***clouting***](#clout) and trading creator coins',
         usage: 'The bots got in there first and bought my [***coin***](#creator-coin)!',
-        date: ''
+        date: '2021-06-07'
       },
       {
         word: 'clout / reclout',
-        definition: '',
+        definition: 'BitClout\'s equivalent of post / repost',
         usage: 'Reclout for [***diamonds***](#diamond)!',
-        date: ''
+        date: '2021-06-06'
       },
       {
         word: 'diamond',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'tip paid in a creator coin one creator can gift to another by clicking a diamond button, used to show appreciation or as an incentive to engage audience',
+        usage: 'Giving 5 diamonds away to the best comment!',
+        date: '2021-06-05'
       },
       {
         word: 'creator coin',
-        definition: 'or CC, is a currency asset that is attached to every account and tied to BitClout coin price, enabling other users to invest in given creator by buying their coin',
+        definition: 'or *CC*, is a currency asset that is attached to every account and tied to BitClout coin price, enabling other users to invest in given creator by buying their coin',
         usage: 'I wish the creator coins were tied to USD instead of BitClout.',
         date: '2021-06-04'
       },

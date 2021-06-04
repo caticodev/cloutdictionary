@@ -6,11 +6,11 @@
 </script>
 
 {#if post}
-	<div id={post.word.replace(' ', '-')} class="mx-auto max-w-2xl p-5 card">
+	<div id={post.word.split('/')[0].trim().replace(' ', '-')} class="mx-auto max-w-2xl p-5 card">
 		<div class="rounded-lg flex flex-col h-full bg-gray-100 p-8 relative dark:bg-gray-800">
 			<Edit bind:post />
 			<p class="text-sm opacity-50">
-				{format(new Date(post.date), 'PP')}
+				{post.date ? format(new Date(post.date), 'PP') : ''}
 			</p>
 			<h2 class="font-display my-8 text-primary tracking-widest text-3xl">
 				{post.word}

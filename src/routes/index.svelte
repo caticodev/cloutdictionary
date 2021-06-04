@@ -1,16 +1,17 @@
 <script context="module" lang="ts">
-	import { dev } from '$app/env';
 	import { isBefore } from 'date-fns';
 	import * as tz from 'date-fns-tz';
 
 	export const load = async ({ fetch }) => {
 		const res = await fetch('/index.json');
 		const now = Date.now();
-		const posts = (await res.json()).filter(({ date }) => {
-			if (dev) return true;
-			const releaseDate = tz.zonedTimeToUtc(`${date} 20:00`, 'America/Los_Angeles');
-			return isBefore(releaseDate, now);
-		});
+		const posts = (await res.json())
+			.filter(({ definition, usage, date }) => definition && usage && date)
+			.map((post) => {
+				const releaseDate = tz.zonedTimeToUtc(`${post.date} 20:00`, 'America/Los_Angeles');
+				return isBefore(releaseDate, now) ? post : { ...post, date: null };
+			})
+			.sort((a, b) => (!a.date ? 1 : !b.date ? -1 : b.date.localeCompare(a.date)));
 
 		if (res.ok) {
 			return {
