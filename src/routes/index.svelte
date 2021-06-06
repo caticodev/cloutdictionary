@@ -8,7 +8,7 @@
 		const posts = (await res.json())
 			.filter(({ definition, usage, date }) => definition && usage && date)
 			.map((post) => {
-				const releaseDate = tz.zonedTimeToUtc(`${post.date} 20:00`, 'America/Los_Angeles');
+				const releaseDate = tz.zonedTimeToUtc(`${post.date} 15:00`, 'America/Los_Angeles');
 				return isBefore(releaseDate, now) ? post : { ...post, date: null };
 			})
 			.sort((a, b) => (!a.date ? 1 : !b.date ? -1 : b.date.localeCompare(a.date)));
