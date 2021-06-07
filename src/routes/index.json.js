@@ -215,8 +215,8 @@ export function get() {
       },
       {
         word: 'bots',
-        definition: 'accounts that are automated to do activity on BitClout, including [***clouting***](#clout) and trading creator coins',
-        usage: 'The bots got in there first and bought my [***coin***](#creator-coin)!',
+        definition: 'accounts that are automated to do activity on BitClout, including [***clouting***](#clout) and trading [***creator coins***](#creator-coin)',
+        usage: 'I forgot to change my [***FR***](#founders-reward) to 100% and the bots got in there first and bought my coin! [***coin***](#creator-coin)!',
         date: '2021-06-07'
       },
       {
