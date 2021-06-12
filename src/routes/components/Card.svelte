@@ -3,13 +3,13 @@
 	import marked from 'marked';
 	import Edit from './Edit.svelte';
 	export let post;
+
+	const slugify = (str) =>
+		str.toLowerCase().split('/')[0].trim().replace(' ', '-').replace("'", '');
 </script>
 
 {#if post}
-	<div
-		id={post.word.split('/')[0].trim().replace(' ', '-').replace("'", '')}
-		class="mx-auto max-w-2xl p-5 card"
-	>
+	<div id={slugify(post.word)} class="mx-auto max-w-2xl p-5 card">
 		<div class="rounded-lg flex flex-col h-full bg-gray-100 p-8 relative dark:bg-gray-800">
 			<Edit bind:post />
 			<p class="text-sm opacity-50">

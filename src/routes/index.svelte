@@ -1,6 +1,5 @@
 <script context="module" lang="ts">
 	import { isBefore } from 'date-fns';
-	import * as tz from 'date-fns-tz';
 
 	export const load = async ({ fetch }) => {
 		const res = await fetch('/index.json');
@@ -8,8 +7,7 @@
 		const posts = (await res.json())
 			.filter(({ definition, usage, date }) => definition && usage && date)
 			.map((post) => {
-				const releaseDate = tz.zonedTimeToUtc(`${post.date} 15:00`, 'America/Los_Angeles');
-				return isBefore(releaseDate, now) ? post : { ...post, date: null };
+				return isBefore(new Date(post.date), now) ? post : { ...post, date: null };
 			})
 			.sort((a, b) => (!a.date ? 1 : !b.date ? -1 : b.date.localeCompare(a.date)));
 

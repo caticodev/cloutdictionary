@@ -25,7 +25,7 @@
 			owner: 'cat-ico',
 			repo: 'cloutdictionary',
 			title: `${action} word: ${word?.trim()}`,
-			body: `#Definition:\n${definition?.trim()}\n#Usage:\n${usage?.trim()}`
+			body: `# Definition\n${definition?.trim()}\n# Usage\n${usage?.trim()}`
 		});
 		issueLink = res.data.html_url;
 		submitted = true;

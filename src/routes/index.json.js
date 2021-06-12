@@ -2,21 +2,15 @@ export function get() {
   return {
     body: [
       {
-        word: 'mint',
+        word: 'bitcloutic',
         definition: '',
-        usage: '',
+        usage: 'Can someone draw a cute and "Bitcloutic" logo for CloutMegazord project? ',
         date: ''
       },
       {
-        word: 'burn',
-        definition: '',
-        usage: '',
-        date: ''
-      },
-      {
-        word: 'shill',
-        definition: '',
-        usage: '',
+        word: 'burning',
+        definition: 'process of destroying creator coins or other tokens',
+        usage: 'I just burned 90% of the supply to make it more rare and exclusive',
         date: ''
       },
       {
@@ -37,12 +31,7 @@ export function get() {
         usage: '',
         date: ''
       },
-      {
-        word: 'ape',
-        definition: '',
-        usage: '',
-        date: ''
-      },
+
       {
         word: 'clout chasing',
         definition: '',
@@ -117,40 +106,11 @@ export function get() {
         usage: '',
         date: ''
       },
-      {
-        word: 'nft',
-        definition: '',
-        usage: '',
-        date: ''
-      },
+
       {
         word: 'seed phrase',
         definition: '',
         usage: '',
-        date: ''
-      },
-      {
-        word: 'mine',
-        definition: '',
-        usage: '',
-        date: ''
-      },
-      {
-        word: 'onramp / offramp',
-        definition: '',
-        usage: 'A large share of most creators\' "traditional" audience also isn\'t on the platform yet, but i think this will change once bitclout officially lists on an exchange and there\'s an obvious offramp',
-        date: ''
-      },
-      {
-        word: 'paper hands',
-        definition: '',
-        usage: 'I lost like $500 in potential profit for not holding long enough, fuken paper hands trader I am.',
-        date: ''
-      },
-      {
-        word: 'diamond hands',
-        definition: '',
-        usage: 'I\'d be happy to take some profit now but literally can\'t sell so diamond hands it is.',
         date: ''
       },
       {
@@ -165,12 +125,7 @@ export function get() {
         usage: 'BitClout is the first mainstream web 3.0 application.',
         date: ''
       },
-      {
-        word: 'DeFi',
-        definition: '',
-        usage: 'Plenty of DeFi and CeFi companies struggle with regulation.',
-        date: ''
-      },
+
       {
         word: 'shitcoin',
         definition: '',
@@ -178,16 +133,96 @@ export function get() {
         date: ''
       },
       {
+        word: 'onramp',
+        definition: 'a way to exchange regular money to BitClout',
+        // @CloutCobain
+        usage: 'The biggest feature BitClout can add is a fiat onramp for new users to purchase BTCLT directly with cash.',
+        date: '2021-06-24'
+      },
+      {
+        word: 'staking',
+        definition: 'voluntarily locking up creator coins, that serve to validate BitClout transactions and for which the creator receives rewards, an alternative to mining',
+        // @lukasjakson
+        usage: 'Staking could be a great way for creators to have an additional income.',
+        date: '2021-06-23'
+      },
+      {
+        word: 'mining',
+        definition: 'process of adding new blocks to the blockchain by validating transactions',
+        // @brootle
+        usage: 'After 15 days of mining BitClout I stopped my rigs.',
+        date: '2021-06-22'
+      },
+
+      {
+        word: 'shill',
+        definition: 'to excessively and enthusiastically promote certain creator or BitClout',
+        // @SAMF
+        usage: 'Shill me ur fav [***NFT***](#nft) projects!',
+        date: '2021-06-21'
+      },
+      {
+        word: 'NFT',
+        definition: 'short for non-fungible token, a token used as a digital proof of ownership of certain assets (e.g. digital art) to make them tradable digitally',
+        // @DeflationBomb
+        usage: 'Top 20 coin holders of our coin will be a part of a screenshot that will be [***minted***](#mint) into a NFT.',
+        date: '2021-06-20'
+      },
+      {
+        word: 'minting',
+        definition: 'process of creation of new creator coins or BitClout coins',
+        // @flanagan
+        usage: 'It\'s Friday and we\'re saying GOODBYE to minting new BitClout.',
+        date: '2021-06-19'
+      },
+      {
+        word: 'DeFi',
+        definition: 'short for decentralized finance, financial ecosystem build on top of the blockchain technology',
+        // @kennethbollen
+        usage: 'DeFi will do to Fintech what Ecommerce did to bricks & mortar.',
+        date: '2021-06-18'
+      },
+      {
+        word: 'offramp',
+        definition: 'a way to exchange BitClout for regular money',
+        // @CloutCobain
+        usage: 'I\'ve deposited Bitcoin into BitClout because I believe there will be an offramp.',
+        date: '2021-06-17'
+      },
+      {
+        word: 'paper hands',
+        definition: 'panic selling of BitClout or [***creator coin***](#creator-coin) at the first sign of price decrease',
+        // @dios
+        usage: 'I lost like $500 in potential profit for not holding long enough, fuken paper hands trader I am.',
+        date: '2021-06-16'
+      },
+      {
+        word: 'ape',
+        definition: 'to make a hasty investment decision, often without doing a proper research, driven by the "primitive instincts" (hence the primate reference)',
+        // @basura
+        usage: 'I don’t think the [***bots***](#bots) are working. Changed [***FR***](#founders-reward) from 100 to zero and no one aped in.',
+        date: '2021-06-15'
+      },
+      {
         word: 'degen',
-        definition: 'BitClout user who is a a bit too obsessed with trading creator coins and likes to participate in high risk [***FR games***](#FR-game) and [***pumps and dumps***](#pump-and-dump)',
+        definition: 'BitClout user who is a a bit too obsessed with trading BitClout and creator coins and likes to participate in high risk [***FR games***](#fr-game) and [***pumps and dumps***](#pump-and-dump)',
+        // @bitcloutradio
         usage: 'Maybe I\'m being full degen but do you have a BitClout coin price-time chart?',
-        date: ''
+        date: '2021-06-14'
       },
       {
         word: 'FR game',
-        definition: 'when creator anounces that they\'re  going to chnage their founder\'s reward in an attempt to attaract more investors',
-        usage: 'All these FR games are driving me crazy.',
-        date: ''
+        definition: 'campaign in which creator announces that they\'re going to decrease their [***founder\'s reward***](#founders-reward) in an attempt to attract more investors and raise their [***coin***](#creator-coin) price',
+        // @pistachio
+        usage: 'If you\'re doing FR game and people are on average making money then you are doing your FR game wrong.',
+        date: '2021-06-13'
+      },
+      {
+        word: 'diamond hands',
+        definition: '[***HODLing***](#hodl) BitClout or [***creator coin***](#creator-coin) even when the prices are falling or resisting the urge to sell when the prices are going up and waiting for even greater gains',
+        // @tysonflows
+        usage: 'I\'d be happy to take some profit now but literally can\'t sell so diamond hands it is.',
+        date: '2021-06-12'
       },
       {
         word: 'cast',
