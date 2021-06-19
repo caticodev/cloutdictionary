@@ -133,6 +133,19 @@ export function get() {
         date: ''
       },
       {
+        word: 'maxie',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
+        // @Matreshka
+        word: 'cryptocrats',
+        definition: 'people whose political philosophy is that they want to be wealthy and successful while making those around them wealthy and successful',
+        usage: '',
+        date: ''
+      },
+      {
         word: 'onramp',
         definition: 'a way to exchange regular money to BitClout',
         // @CloutCobain
@@ -153,7 +166,6 @@ export function get() {
         usage: 'After 15 days of mining BitClout I stopped my rigs.',
         date: '2021-06-22'
       },
-
       {
         word: 'shill',
         definition: 'to excessively and enthusiastically promote certain creator or BitClout',
@@ -171,8 +183,7 @@ export function get() {
       {
         word: 'minting',
         definition: 'process of creation of new creator coins or BitClout coins',
-        // @flanagan
-        usage: 'It\'s Friday and we\'re saying GOODBYE to minting new BitClout.',
+        usage: 'Deflation bomb is saying goodbye to minting new BitClout.',
         date: '2021-06-19'
       },
       {
