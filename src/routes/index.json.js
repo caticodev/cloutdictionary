@@ -183,7 +183,7 @@ export function get() {
       {
         word: 'minting',
         definition: 'process of creation of new creator coins or BitClout coins',
-        usage: 'Deflation bomb is saying goodbye to minting new BitClout.',
+        usage: '[***Deflation bomb***](#deflation-bomb) is saying goodbye to minting new BitClout.',
         date: '2021-06-19'
       },
       {
