@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cloutdictionary.com
+Token: 78be441f4d5abb7ae507d771f6f31a3801927108077dacb39c674197e0d04cf2
