@@ -2,152 +2,136 @@ export function get() {
   return {
     body: [
       {
-        word: 'bitcloutic',
-        definition: '',
-        usage: 'Can someone draw a cute and "Bitcloutic" logo for CloutMegazord project? ',
-        date: ''
+        // @Matreshka, @fungibles
+        word: 'cryptocrat',
+        definition: 'person whose political philosophy is that they want to be wealthy and successful while making those around them wealthy and successful',
+        usage: 'My political philosophy is being cryptocratic.',
+        date: '2021-07-13'
       },
       {
         word: 'burning',
         definition: 'process of destroying creator coins or other tokens',
-        usage: 'I just burned 90% of the supply to make it more rare and exclusive',
-        date: ''
-      },
-      {
-        word: 'farm',
-        definition: '',
-        usage: '',
-        date: ''
+        // @BurnYourClout
+        usage: 'Will be burning a portion of our own coin for eternity within the hour!',
+        date: '2021-07-12'
       },
       {
         word: 'bag',
-        definition: '',
-        usage: '',
-        date: ''
-      },
-      {
-        word: 'pull out',
-        definition: '',
-        usage: '',
-        date: ''
-      },
-
-      {
-        word: 'clout chasing',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'large quantity of particular [***creator coin***](#creator-coin)',
+        // @LionCapital
+        usage: 'Keep selling the bottom til your bags have withered into vapor.',
+        date: '2021-07-11'
       },
       {
         word: 'bonding curve',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'rate at which one\'s [***creator coin***](#creator-coin) increases in value, with each additional coin bought the price increases exponentially',
+        // @darian_parrish
+        usage: 'The creator coin bonding curve encourages early investments in creators but makes it very difficult to get a return on later stage creators.',
+        date: '2021-07-10'
       },
       {
         word: 'cap table',
-        definition: 'tab where you can see the holders of your coin',
-        usage: '',
-        date: ''
+        definition: 'all holders of one\'s [***creator coin***](#creator-coin)',
+        // @Fungibles
+        usage: 'Honored to have this baller be on our cap table.',
+        date: '2021-07-09'
       },
-
       {
         word: 'market cap',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'total value of one\'s creator coin supply',
+        // @MarioNawfal
+        usage: 'My market cap just hit $1m, and I know $10m is not far off.',
+        date: '2021-07-08'
       },
       {
         word: 'airdrop',
-        definition: '',
-        usage: '',
-        date: ''
-      },
-      {
-        word: 'astronaut',
-        definition: '',
-        usage: '',
-        date: ''
-      },
-      {
-        word: 'fish',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'marketing campaign, where certain creator coin or other token gets distributed among random users',
+        // @Ghozt
+        usage: 'I airdropped a customized [***NFT***](#nft) to each of my 1+ [***HODLers***](#hodl) as a thank you for their loyalty.',
+        date: '2021-07-07'
       },
       {
         word: 'blue chip',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: '[***creator coin***](#creator-coin) with low-risk investment, often referring to celebrity or verified [***CC***](#creator-coin)',
+        // @BICE
+        usage: 'From penny stock to blue chip, all it takes is your faith.',
+        date: '2021-07-06'
       },
       {
         word: 'dapp',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'short for [***decentralized***](#decentralized) app, an application that runs on a decentralized network',
+        // @WhaleSharkdotPro
+        usage: 'I love the "Dapp" plays that are building on the BitClout network.',
+        date: '2021-07-05'
       },
       {
         word: 'decentralized',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'property of a system composed of multiple decision-makers with comparable degree of authority instead of single source of authority',
+        // @Krassenstein
+        usage: 'Decentralized social media is democratized social media.',
+        date: '2021-07-04'
       },
 
       {
         word: 'blockchain',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'digitalized and [***decentralized***](#decentralized) public ledger that enables tracking transactions in a way that prevents them from being modified',
+        // @mp3
+        usage: 'Blockchain Rule #1: Never share your [***seed phrase***](#seed-phrase) with anyone!',
+        date: '2021-07-03'
       },
       {
         word: 'public key',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'public address of your account, needed to make BitClout transactions',
+        // @NoFaceGirl
+        usage: 'Drop your public key below you might get a gift.',
+        date: '2021-07-02'
       },
 
       {
         word: 'seed phrase',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'passphrase consisting of group of words that serves to access your BitClout account and cannot be changed',
+        // @d3pendable
+        usage: 'I had to create this new profile due to lost seed phrase (lesson learned!).',
+        date: '2021-07-02'
       },
       {
-        word: 'bitclout',
-        definition: 'a. social network b. currency c. website d. all of the above',
-        usage: 'BitClout is the next generation of social networks.',
-        date: ''
+        word: '$clout',
+        definition: 'official cryptocurrency of BitClout',
+        // @jakeudell
+        usage: 'Who wants to be listed on NASDAQ when you can be listed in $CLOUT?',
+        date: '2021-07-01'
       },
       {
         word: 'web 3.0',
-        definition: '',
-        usage: 'BitClout is the first mainstream web 3.0 application.',
-        date: ''
+        definition: 'next generation of internet that leverages [***decentralized***](#decentralized) protocols like blockchain, machine learning and artificial intelligence',
+        // @jakeudell
+        usage: 'In Web 3.0, nobody knows what\'s going to happen next...',
+        date: '2021-06-30'
       },
-
       {
         word: 'shitcoin',
-        definition: '',
-        usage: '',
-        date: ''
+        definition: 'creator coin or cryptocurrency to be believed to be of low value and poor choice for investment',
+        // @TaylorRichey
+        usage: 'One person\'s shitcoin is another person\'s treasure.',
+        date: '2021-06-29'
       },
       {
-        word: 'maxie',
-        definition: '',
-        usage: '',
-        date: ''
+        word: 'maxi',
+        definition: 'short for maximalist, strong proponent of single cryptocurrency (usually Bitcoin) as the only valuable currency, proclaiming all other cryptocurrencies to be [***shitcoins***](#shitcoin)',
+        // @Davidsun
+        usage: 'Loving the free publicity campaigns from maxis on Twitter! They just can’t stop talking about BitClout.',
+        date: '2021-06-28'
       },
       {
-        // @Matreshka
-        word: 'cryptocrats',
-        definition: 'people whose political philosophy is that they want to be wealthy and successful while making those around them wealthy and successful',
-        usage: '',
-        date: ''
+        // @TrueApery
+        word: 'rugboy',
+        definition: 'one who finds it a privilege and an honour to be scammed or [***rugged***](#rug-pull) by their favorite creator',
+        usage: 'You\'re such a Belieber, you\'re a rugboy!',
+        date: '2021-06-25'
       },
       {
         word: 'onramp',
-        definition: 'a way to exchange regular money to BitClout',
+        definition: 'a way to exchange regular money for BitClout',
         // @CloutCobain
         usage: 'The biggest feature BitClout can add is a fiat onramp for new users to purchase BTCLT directly with cash.',
         date: '2021-06-24'
@@ -188,7 +172,7 @@ export function get() {
       },
       {
         word: 'DeFi',
-        definition: 'short for decentralized finance, financial ecosystem build on top of the blockchain technology',
+        definition: 'short for [***decentralized***](#decentralized) finance, financial ecosystem build on top of the blockchain technology',
         // @kennethbollen
         usage: 'DeFi will do to Fintech what Ecommerce did to bricks & mortar.',
         date: '2021-06-18'
