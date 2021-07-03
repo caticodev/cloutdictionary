@@ -2,6 +2,13 @@ export function get() {
   return {
     body: [
       {
+        word: 'public key',
+        definition: 'public address of your account, needed to make BitClout transactions',
+        // @NoFaceGirl
+        usage: 'Drop your public key below you might get a gift.',
+        date: '2021-07-14'
+      },
+      {
         // @Matreshka, @fungibles
         word: 'cryptocrat',
         definition: 'person whose political philosophy is that they want to be wealthy and successful while making those around them wealthy and successful',
@@ -80,16 +87,8 @@ export function get() {
         date: '2021-07-03'
       },
       {
-        word: 'public key',
-        definition: 'public address of your account, needed to make BitClout transactions',
-        // @NoFaceGirl
-        usage: 'Drop your public key below you might get a gift.',
-        date: '2021-07-02'
-      },
-
-      {
         word: 'seed phrase',
-        definition: 'passphrase consisting of group of words that serves to access your BitClout account and cannot be changed',
+        definition: 'passphrase consisting of a group of words that serve to access your BitClout account and cannot be changed',
         // @d3pendable
         usage: 'I had to create this new profile due to lost seed phrase (lesson learned!).',
         date: '2021-07-02'
