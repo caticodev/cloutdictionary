@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { format } from 'date-fns';
+	// import { format } from 'date-fns';
 	import marked from 'marked';
 	import Edit from './Edit.svelte';
 	export let post;
@@ -12,9 +12,9 @@
 	<div id={slugify(post.word)} class="mx-auto max-w-2xl p-5 card">
 		<div class="rounded-lg flex flex-col h-full bg-gray-100 p-8 relative dark:bg-gray-800">
 			<Edit bind:post />
-			<p class="text-sm opacity-50">
+			<!-- <p class="text-sm opacity-50">
 				{post.date ? format(new Date(post.date), 'PP') : ''}
-			</p>
+			</p> -->
 			<h2 class="font-display my-8 text-primary tracking-widest text-3xl">
 				{post.word}
 			</h2>

@@ -1,15 +1,12 @@
 <script context="module" lang="ts">
-	import { isBefore } from 'date-fns';
+	// import { isBefore } from 'date-fns';
 
 	export const load = async ({ fetch }) => {
 		const res = await fetch('/index.json');
-		const now = Date.now();
+		// const now = Date.now();
 		const posts = (await res.json())
-			.filter(({ definition, usage, date }) => definition && usage && date)
-			.map((post) => {
-				return isBefore(new Date(post.date), now) ? post : { ...post, date: null };
-			})
-			.sort((a, b) => (!a.date ? 1 : !b.date ? -1 : b.date.localeCompare(a.date)));
+			.filter(({ definition, usage }) => definition && usage)
+			.sort((a, b) => (a.word.toLowerCase() > b.word.toLowerCase() ? 1 : -1));
 
 		if (res.ok) {
 			return {

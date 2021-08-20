@@ -2,6 +2,24 @@ export function get() {
   return {
     body: [
       {
+        word: 'clout storm',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
+        word: 'bapp',
+        definition: 'short for BitClout app, an app built on top of the BitClout blockchain or as a part of the BitClout ecosystem',
+        usage: '',
+        date: ''
+      },
+      {
+        word: 'node',
+        definition: '',
+        usage: '',
+        date: ''
+      },
+      {
         word: 'public key',
         definition: 'public address of your account, needed to make BitClout transactions',
         // @NoFaceGirl
